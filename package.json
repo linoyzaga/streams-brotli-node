@@ -1,7 +1,7 @@
 {
   "name": "streams",
   "version": "1.0.0",
-  "description": "stream medium post",
+  "description": "Streams for Medium post",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"

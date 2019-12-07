@@ -8,6 +8,11 @@ const {
 const {
   pipeStreamHandler
 } = require('./src/pipeStream');
+const {
+  brotliStreamCompress,
+  brotliStreamDecompress
+} = require('./src/brotliStream');
+
 const PORT = 3000;
 
 const requestHandler = (req, res) => {
@@ -24,11 +29,17 @@ server.listen(PORT, err => {
   console.log(`Server is listening on ${PORT} 🐷`);
 });
 
-// Uncomment line 28 for read stream example
+// Uncomment line 33 for read stream example
 // readStreamHandler();
 
-// Uncomment line 31 for write stream example
+// Uncomment line 36 for write stream example
 // writeStreamHandler();
 
-// Uncomment line 33 for pipe stream example
+// Uncomment line 39 for pipe stream example
 // pipeStreamHandler();
+
+// Uncomment line 42 for brotli stream example
+// brotliStreamCompress();
+
+// Uncomment line 45 for brotli stream example
+// brotliStreamDecompress();
