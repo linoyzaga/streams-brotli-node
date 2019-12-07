@@ -1,0 +1,11 @@
+{
+  "name": "streams",
+  "version": "1.0.0",
+  "description": "stream medium post",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Linoy Zaga",
+  "license": "MIT"
+}
