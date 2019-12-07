@@ -7,7 +7,7 @@ const readStreamHandler = () => {
   // Create read stream
   const readStream = fs.createReadStream(FILE_NAME);
 
-  // Handle 'on' event - each chunk we read we save to variable
+  // Handle 'on' event - each chunk we read we save it to a variable
   readStream.on('data', (chunk) => {
     data += chunk;
   });

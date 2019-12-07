@@ -8,7 +8,7 @@ const pipeStreamHandler = () => {
   const readStream = fs.createReadStream(READ_FILE_NAME);
   const writeStream = fs.createWriteStream(WRITE_FILE_NAME);
 
-  // Pipe the read and write operations
+  // Pipe read and write operations together
   readStream.pipe(writeStream);
 
   console.log('Done piping 😎');

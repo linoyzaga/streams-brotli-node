@@ -38,8 +38,8 @@ server.listen(PORT, err => {
 // Uncomment line 39 for pipe stream example
 // pipeStreamHandler();
 
-// Uncomment line 42 for brotli stream example
+// Uncomment line 42 for brotli compress stream example
 // brotliStreamCompress();
 
-// Uncomment line 45 for brotli stream example
+// Uncomment line 45 for brotli decompress stream example
 // brotliStreamDecompress();

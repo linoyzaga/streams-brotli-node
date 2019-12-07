@@ -7,7 +7,7 @@ const writeStreamHandler = () => {
   const writeStream = fs.createWriteStream(FILE_NAME);
 
   for (let i = 0; i < 10; i++) {
-    // Handle 'write' event - each chunk we read we save to variable
+    // Handle 'write' event - write this line to the file
     writeStream.write('Lorem ipsum dolor sit amet, consectetur adipisicing elit\n');
   }
 
